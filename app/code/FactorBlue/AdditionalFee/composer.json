@@ -1,0 +1,22 @@
+{
+  "name": "factorblue/module-additionalfee",
+  "description": "",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Nikola Tujkovic",
+      "email": "tujkovicn@gmail.com",
+      "role": "Job Applicant"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "FactorBlue\\AdditionalFee\\": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package   FactorBlue_AdditionalFee
+ * @author    Nikola Tujković <tujkovicn@gmail.com>
+ */
+-->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="sales_order" resource="default">
+        <column xsi:type="decimal" name="fb_additional_fee"  scale="2" precision="10" default="0.00" nullable="true" comment="FB Additional Fee"/>
+    </table>
+</schema>

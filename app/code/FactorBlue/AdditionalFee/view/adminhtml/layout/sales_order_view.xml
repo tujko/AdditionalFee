@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package   FactorBlue_AdditionalFee
+ * @author    Nikola Tujković <tujkovicn@gmail.com>
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="order_totals">
+            <block class="FactorBlue\AdditionalFee\Block\Sales\Order\AdditionalFee" name="fb.admin.additional.fee"/>
+        </referenceBlock>
+    </body>
+</page>
